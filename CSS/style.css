@@ -1,3 +1,100 @@
 body {
 	background-color: pink;
 }
+
+
+.slider{
+	background-color: green;
+	min-height: 50px;
+}
+
+.row-fluid {
+    width: 100%;
+    *zoom: 1;
+}
+
+.row-fluid [class*="span"] {
+    display: block;
+    float: left;
+    margin-left: 2.127659574468085%;
+    *margin-left: 2.074468085106383%;
+}
+
+
+.row-fluid .span6{
+    width: 95%;
+    *width: 95.94680851063829%;
+}
+
+.row-fluid .span5 {
+    width: 78.97872340425532%;
+    *width: 78.92553191489361%;
+}
+
+
+.row-fluid .span4 {
+    width: 61.95744680851064%;
+    *width: 61.90425531914893%;
+}
+
+
+.row-fluid .span3 {
+    width: 44.93617021276595%;
+    *width: 44.88297872340425%;
+}
+
+
+.row-fluid .span2 {
+    width: 27.914893617021278%;
+    *width: 27.861702127659576%;
+}
+
+
+.row-fluid .span1 {
+    width: 10.893617021276595%;
+    *width: 10.840425531914894%;
+}
+
+.row-fluid .offset6 {
+    margin-left: 104.25531914893617%;
+    *margin-left: 104.14893617021275%;
+}
+
+.row-fluid .offset5 {
+    margin-left: 87.23404255319149%;
+    *margin-left: 87.12765957446807%;
+}
+
+.row-fluid .offset4 {
+    margin-left: 70.2127659574468%;
+    *margin-left: 70.10638297872339%;
+}
+
+.row-fluid .offset3 {
+    margin-left: 53.191489361702125%;
+    *margin-left: 53.085106382978715%;
+}
+
+.row-fluid .offset2 {
+    margin-left: 36.170212765957444%;
+    *margin-left: 36.06382978723405%;
+}
+
+.row-fluid .offset1 {
+    margin-left: 19.148936170212764%;
+    *margin-left: 19.04255319148936%;
+}
+
+.container-fluid {
+    padding-right: 20px;
+    padding-left: 20px;
+    *zoom: 1;
+}
+
+.top-spacing {
+	min-height: 20%
+}
+
+@media (min-width: 1200px) .row-fluid .span1 {
+	width: 14.893617021276595%;
+}
